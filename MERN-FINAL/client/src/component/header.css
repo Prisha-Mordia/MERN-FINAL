@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1c1c1e;
+    color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item a {
+    color: #f5f5f5 !important;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #e3e3e3 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
